@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+/* Navbar Container Styling  */
+
+header{
+    background-color: rgba(64, 64, 64, 0.073);
+}
+.navbar__container{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.navbar__container h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.navbar__items{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar__items a:hover{
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
